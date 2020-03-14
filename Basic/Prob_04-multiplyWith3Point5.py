@@ -6,5 +6,5 @@ def multiplyWith3Point5(x):
 	return ((x << 3) - x) >> 1
 
 x = 5
-# Expected 17
+# Expected value 17
 print(multiplyWith3Point5(x))

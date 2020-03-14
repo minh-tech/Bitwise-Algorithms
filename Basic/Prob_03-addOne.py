@@ -7,5 +7,5 @@ def addOne(x):
 	# To get (x + 1) apply negation once again.
 	return -(~x)
 
-# Expected 13
+# Expected value 13
 print(addOne(12))
