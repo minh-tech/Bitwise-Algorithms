@@ -29,4 +29,3 @@ def getPositionOfRightMostSetBit(n):
 n = 368
 # Expected value 5
 print(getPositionOfRightMostSetBit(n))
-
