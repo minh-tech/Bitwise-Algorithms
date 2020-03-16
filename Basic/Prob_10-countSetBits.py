@@ -21,7 +21,7 @@ def countSetBits1(n):
 def countSetBits2(n):
 	count = 0
 	while n:
-		# Check Prob_05-setRightMostBitZero.py
+		# Check Prob_05-clearRightMostBit.py
 		n = n & (n-1)
 		count += 1
 	return count
